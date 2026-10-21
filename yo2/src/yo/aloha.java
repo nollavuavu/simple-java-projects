@@ -44,6 +44,11 @@ public class aloha {
 				losecount++;
 				System.out.println("You lost to the bot. Win: "+wincount+", Lose: "+losecount);
 			}
+
+			else if (playertotal == bottotal && playertotal < 22){
+				System.out.println("It's a draw!");
+			}
+				
 			else {
 				wincount++;
 				System.out.println("You defeated the bot. Win: "+wincount+", Lose: "+losecount);
